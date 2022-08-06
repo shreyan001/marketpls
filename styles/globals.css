@@ -1,0 +1,44 @@
+@font-face {
+  font-family: display;
+  src: url('/fonts/IntoDeep.otf');
+}
+
+@font-face {
+  font-family: bdConsoleItalic;
+  src: url('/fonts/CONSRI__.TTF');
+}
+
+* {
+  box-sizing: border-box;
+  font-weight: 300 !important;
+}
+
+:root {
+  --dk-grey: rgba(0, 0, 0, 0.6);
+  --light-grey: rgba(0, 0, 0, 0.125);
+  --border-a: 1px solid blue;
+  --border-b: 1px dotted rgba(255, 255, 255, 0.5);
+  --black-50: #808080;
+  --background-color: #e8e5dc;
+  --menu-bg-color: #ffea02;
+  --syncer-yellow: #ffea02;
+  --nft-background-color: #f5f5b8;
+  --card-info-color: #fa9442;
+  --collection-background-color: #a3ad00;
+  --dashed-border: 1px dashed var(--black-50);
+  --shadow-light: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.15));
+}
+
+.bd-console-italic,
+.bd-console-italic * {
+  font-family: bdConsoleItalic, monospace !important;
+}
+
+.outline-font,
+.outline-font * {
+  color: var(--background-color);
+  -webkit-text-fill-color: var(--background-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--menu-bg-color);
+  letter-spacing: 5px;
+}
